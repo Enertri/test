@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <link rel="stylesheet" href="portfolio.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="ui">
+    <table style="height:9vh;width:98vw;border-spacing:0px;">
+        <tr>
+            <th class="logo"><a href><img src="logo.jpg" style="height: 90px; width: 105px; border-radius: 10px;"></a></th>
+            <th class="basket"><button class="basket" onclick="openCart()"><img src="cart.avif" style="height: 90px; width: 105px; border-radius: 10px;"></button></th>
+        </tr>
+    </table>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+        <center><button onclick="location = 'portfolio.html'">home</button>
+      <button onclick="location = 'abouten.html'">products</button>
+      <button onclick="location = 'contact.html'">contact</button></center>
+     <div id="about">
+        <table class="produkti">
+            <tr>
+                <th><button onclick="location.href='enerpateka.html'" class="pateka" style="overflow: hidden;"><img src="pavegen-smart-street-5.webp" class="pateka"></button></th>
+                <th><button onclick="location.href='solarnipaneli.html'" class="sunflower" style="overflow: hidden;"><img src="png (1).png" class="sunflower"></button></th>
+            </tr>
+            <tr>
+                <th><button onclick="location.href='enerdurvo.html'" class="tree" style="overflow: hidden;"><img src="png.png" class="tree"></button></th>
+            </tr>
+        </table>
+      </div>
+       <div class="basketbar">
+        <button class= "close" onclick="Close()">x</button>
+            <ul id="cart"></ul>
+        <p>Total: $<span id="total">0</span></p>
+        <a href="http://localhost/orders.php" class="order" style="text-decoration: none;">
+    <button>order</button>
+</a></div>
+      <script src="enerscript.js">
+      </script>
+</body>
+</html>

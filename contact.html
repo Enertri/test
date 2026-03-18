@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <link rel="stylesheet" href="portfolio.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="ui">
+    <table style="height:9vh;width:98vw;border-spacing:0px;">
+        <tr>
+            <th class="logo"><a href><img src="logo.jpg" style="height: 90px; width: 105px; border-radius: 10px;"></a></th>
+            <th class="basket"><button class="basket" onclick="openCart()"><img src="cart.avif" style="height: 90px; width: 105px; border-radius: 10px;"></button></th>
+        </tr>
+    </table>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+        <center><button onclick="location = 'portfolio.html'">home</button>
+      <button onclick="location = 'abouten.html'">products</button>
+      <button onclick="location = 'contact.html'">contact</button></center>
+    <div id="contact">
+        <table>
+            <tr>
+                <th><img src="mail-removebg-preview.png" height="200px"></th>
+                <th><p> enertriup@gmail.com</p></th>
+            </tr>
+            <tr> 
+                <th><img src="phone-removebg-preview.png"></th>
+                <th><p>08 888 888 888</p></th>
+               
+            </tr>
+            <tr>
+                <th><img src="insta-removebg-preview.png"></th>
+                <th><p>@enertrup</p></th>
+            </tr>
+        </table>
+        
+      </div>
+       <div class="basketbar"><button class= "close" onclick="Close()">x</button>
+    <ul id="cart"></ul>
+        <p>Total: $<span id="total">0</span></p>
+    <a href="http://localhost/orders.php" class="order" style="text-decoration: none;">
+    <button>order</button>
+</a></div></div>
+      <script src="enerscript.js"></script>
+</body>
+</html>

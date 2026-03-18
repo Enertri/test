@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="portfolio.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="ui">
+    <table style="height:9vh;width:98vw;border-spacing:0px;">
+        <tr>
+            <th class="logo"><a href><img src="logo.jpg" style="height: 90px; width: 105px; border-radius: 10px;"></a></th>
+            <th class="basket"><button class="basket" onclick = "addToCart()" style="display: none"></button><button class="basket" onclick="openCart()"><img src="cart.avif" style="height: 90px; width: 105px; border-radius: 10px;"></button></th>
+            <center><th class="moto"><p></p></th></center>
+        </tr>
+    </table>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+      <center><button onclick="location = 'portfolio.html'">home</button>
+      <button onclick="location = 'abouten.html'">products</button>
+      <button onclick="location = 'contact.html'">contact</button></center>
+      
+
+      <div id="home">
+        <br>
+        <p><h1>За нас</h1></p>
+        <table>
+            <tr>
+                <td><h2>Ние сме екип от млади иноватори, обединени от идеята да <br> превръщаме природните сили в устойчива енергия чрез <br> модерен дизайн и интелигентни технологии. <br> Създаваме решения, които съчетават екология, <br> функционалност и естетика, за да направим градската<br> среда по-зелена, по-умна и по-ангажираща за хората.</h2></td>
+                <td><img src="nie.png.jpg" class="otbor"></td>
+            </tr>
+            <tr class="concept">
+                <td><p>КОНЦЕПЦИЯ на ЕНЕРТРИ</p></td>
+                <td><p>Енертри произвежда и предлага три решения за използване на алтернативни източници на възобновяема електрическа енергия - Ветро дърво, Соларен слънчоглед и Енер пътека. Всеки избор на наш клиент е инвестиция за едно по-чисто и екологично бъдеще. 
+Нашето мото е “С Енертри за бъдещето помисли”.</p></td>
+            </tr>
+            <tr>
+                <td><h2>We are a team of young innovators united by the idea of <br>​​transforming the forces of nature into sustainable energy <br> through modern design and smart technologies. We create solutions that combine ecology, functionality and aesthetics to make the urban environment greener, smarter and more engaging for people.</h2></td>
+                <td><img src="nie.png.jpg" class="otbor"></td>
+            </tr>
+            <tr class="concept">
+                <td><p>КОНЦЕПЦИЯ на ЕНЕРТРИ</p></td>
+                <td><p>Енертри произвежда и предлага три решения за използване на алтернативни източници на възобновяема електрическа енергия - Ветро дърво, Соларен слънчоглед и Енер пътека. Всеки избор на наш клиент е инвестиция за едно по-чисто и екологично бъдеще. 
+Нашето мото е “С Енертри за бъдещето помисли”.</p></td>
+            </tr>
+      </table>
+      </div>
+      <div class="basketbar"><button class= "close" onclick="Close()">x</button>
+        <ul id="cart"></ul><p><span id="total"></span></p>
+        <a href="http://localhost/orders.php" class="order" style="text-decoration: none;">
+    <button>order</button>
+</a></div>
+      <script src="enerscript.js">
+        </script>
+</body>
+</html>
